@@ -333,6 +333,7 @@ input {
     height: 146px;
 }
 
+/*
 .subBut {
     background-image: url("../img/butSub.png");
         width: 190px;
@@ -340,6 +341,17 @@ input {
     margin-top: 20px;
     margin-left: 70px;
     cursor: pointer;
+}
+*/
+
+.submit_send {
+     width: 190px;
+    height: 49px;
+    cursor: pointer;
+    margin-left: calc((100% - 190px) / 2);
+    background-color: #414042;
+    color: #72b3cc;
+    font-size: 15px;
 }
 
 .row {
