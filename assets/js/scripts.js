@@ -7,7 +7,7 @@ function sendForm(e) {
     e.preventDefault();
     // console.log('test');
 
-    var data = $(".contact-form").serialize();
+    var data = $(".contact-form").serializeArray();
     // console.dir(data);
 
     $.ajax({
@@ -35,6 +35,7 @@ function sendForm(e) {
                 $("<div>Спасибо!<br>Ваша заявка будет обработана</div>").appendTo(".contact-form");
                 $(".contact-form div").addClass("thanks");
                 $(".contact-form").css("text-align","center");
+                
             }
             
         }
